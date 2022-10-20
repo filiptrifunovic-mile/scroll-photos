@@ -17,7 +17,7 @@ const Photo = ({
         <div>
           <h4>{name}</h4>
           <p>{likes} likes</p>
-          <a href={regular} target="_blank">
+          <a href={regular} target="_blank" rel="noreferrer noopener">
             View full size
           </a>
         </div>
