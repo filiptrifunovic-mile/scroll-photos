@@ -4,7 +4,7 @@ import Photo from "./Photo.js";
 
 const mainUrl = `https://api.unsplash.com/photos/`;
 const searchUrl = `https://api.unsplash.com/search/photos/`;
-const clientID = `?client_id=${process.env.REACT_APP_ACCESS_KEY}`;
+const clientID = `?client_id=8mI61eJkN1wM65LJpu-I6rnbUnTU4NvzLjYpYbawOn4`;
 
 function App() {
   const [loading, setLoading] = useState(false);

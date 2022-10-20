@@ -17,6 +17,9 @@ const Photo = ({
         <div>
           <h4>{name}</h4>
           <p>{likes} likes</p>
+          <a href={regular} target="_blank">
+            View full size
+          </a>
         </div>
         <a href={portfolio_url}>
           <img src={medium} alt="" className="user-img" />
@@ -25,3 +28,5 @@ const Photo = ({
     </article>
   );
 };
+
+export default Photo;
