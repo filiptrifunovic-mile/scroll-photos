@@ -58,7 +58,7 @@ function App() {
     if (!newImages) return;
     if (loading) return;
     setPage((oldPage) => oldPage + 1);
-  }, [newImages]);
+  }, [newImages, loading]);
 
   const event = () => {
     if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 2) {
